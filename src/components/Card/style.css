@@ -1,0 +1,115 @@
+
+
+.container {
+    width: 250px;
+    height: 276px;
+    border: 2px solid brown;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 7px;
+}
+
+.container-icon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+
+.container_img{
+    width: 250px;
+    height: 276px;
+}
+
+.container-button{
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+
+.container-button:active,
+.container-button:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .container-button {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+
+.cards-container_button{
+                                                       appearance: none;
+                                                       background-color: #FFFFFF;
+                                                       border-radius: 40em;
+                                                       border-style: none;
+                                                       box-shadow: #ADCFFF 0 -12px 6px inset;
+                                                       box-sizing: border-box;
+                                                       color: #000000;
+                                                       cursor: pointer;
+                                                       display: inline-block;
+                                                       font-family: -apple-system,sans-serif;
+                                                       font-size: 1.2rem;
+                                                       font-weight: 700;
+                                                       letter-spacing: -.24px;
+                                                       margin: 10px;
+                                                       outline: none;
+                                                       padding: 1rem 1.3rem;
+                                                       quotes: auto;
+                                                       text-align: center;
+                                                       text-decoration: none;
+                                                       transition: all .15s;
+                                                       user-select: none;
+                                                       -webkit-user-select: none;
+                                                       touch-action: manipulation;
+                                                   }
+
+.cards-container_button:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.cards-container_button:active {
+    transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+    .cards-container_button{
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+    }
+}
+
+
+.cards-container_p{
+    border: 2px solid #00DDEB;
+    font-size:160%
+}

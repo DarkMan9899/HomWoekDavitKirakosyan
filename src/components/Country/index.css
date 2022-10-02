@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/016/306/011/large/trung-nguyen-bg-halloween.jpg?1551686543");
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+    width: 870px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.search-category {
+    padding: 0 20px;
+    background-color: #4c4c4c;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+.input-search {
+    width: 100%;
+    flex: 1;
+}
+
+.input-search input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    color: yellow;
+    background-color: rgb(24,84,125);
+    font-size: 14px;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-btn {
+    width: 58px;
+    height: 100%;
+    color: #ffffff;
+    background-color: #333333;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search-btn i {
+    font-size: 24px;
+}
+
+.search-menu {
+    display: none;
+    width: 100%;
+    padding: 20px 30px;
+    background-color:rgba(52, 120, 230, 0.3);
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 10;
+}
+
+.search-related a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 32px;
+    transition: all 0.13s;
+}
+
+.search-related a:hover {
+    color: #ffffff;
+}
+
+.input-search input:focus + .search-menu {
+    display: block;
+}
+
+.search-header {
+    color: white;
+    margin-top: 14px;
+}
+
+.country-img-icon {
+    display: flex;
+    align-items: center;
+}
+
+.country-icon {
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
+}
